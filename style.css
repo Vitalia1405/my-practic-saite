@@ -9,32 +9,33 @@ body {
 
 .header-menu {
     background: #202846;
-    width: 100%;
+    width: auto;
     height: 90px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    list-style-type: none;
+    justify-content: center;
+    flex-direction: row;
 
 }
 
 .head-img-logo {
-    padding-right: 252px;
-    padding-left: 138px;
-    width: 198px;
-    height: 90px;
+    padding-right: 200px;
+    width: 156px;
+    height: 74px;
 }
 
 .head-nav {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: #fff;
+    padding-right: 80px;
 }
 
 .head-nav-iteam {
     display: inline-block;
-    padding: 10px 20px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-right: 3px solid #ccc;
 }
 
@@ -54,20 +55,14 @@ a {
 
 .head-button {
     background: transparent;
-    /* Прибирає фон */
     border: none;
-    /* Прибирає рамку */
     color: #fff;
-    /* Залишає колір тексту від батьківського елемента */
     padding: 10px 20px;
-    /* Внутрішні відступи */
     cursor: pointer;
-    /* Змінює курсор на вказівник */
     font-size: 22px;
     font-weight: 700;
 }
 
-/* Content-image */
 .cont-one {
     display: inline-block;
     position: relative;
@@ -78,7 +73,7 @@ a {
 
 .cont-img-one {
     padding-top: 40px;
-    width: 1488px;
+    width: 1364px;
     height: 369px;
 }
 
@@ -100,7 +95,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 700;
-    font-size: 50px;
+    font-size: 48px;
     text-align: center;
     color: #fff;
 }
@@ -116,7 +111,7 @@ a {
 
 .cont-img-two {
     padding-top: 40px;
-    width: 1488px;
+    width: 1364px;
     height: 604px;
 }
 
@@ -153,27 +148,32 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 1488px;
+    width: 1364px;
     height: 412px;
     background: rgba(193, 193, 195, 0.9);
 }
 
 .cont-img-ag {
+    padding: 30px;
     margin-right: 24px;
     width: 698px;
     height: 348px;
 }
 
 .cont-text-ag {
-    padding: 128px 68px 132px 68px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 30px;
+    margin-left: 0;
     top: 28px;
-    right: 28px;
     width: 564px;
-    font-weight: 400;
+    height: 348px;
     font-size: 26px;
     color: #202846;
     background: rgba(234, 234, 235, 0.7);
-    text-align: center;
+
 }
 
 /* Cont-feedbeak */
@@ -256,6 +256,6 @@ a {
     font-weight: 400;
     font-size: 24px;
     text-align: left;
-    padding: 30px 0px 20px 80px;
+    padding: 30px 0px 20px 200px;
     color: #eeecf1;
 }
