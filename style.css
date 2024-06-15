@@ -106,25 +106,24 @@ a {
 }
 
 .cont-two {
-    display: inline-block;
-    position: relative;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: fit-content;
 }
 
 .cont-img-two {
-    display: block;
-    object-fit: cover;
     padding-top: 40px;
     width: 1488px;
     height: 604px;
 }
 
 .cont-link {
+    margin-left: 932px;
+    margin-bottom: 144px;
     position: absolute;
-    bottom: 132px;
-    left: 1032px;
     font-weight: 400;
     font-size: 24px;
     color: #fff;
@@ -132,13 +131,11 @@ a {
     padding: 16px;
     border-radius: 32px;
     z-index: 1;
-}
 
+}
 
 .cont-text-two {
     position: absolute;
-    bottom: 0;
-    left: 100px;
     width: 1024px;
     font-style: italic;
     font-weight: 400;
@@ -149,23 +146,25 @@ a {
 }
 
 .cont-ag {
-    display: inline-block;
-    position: relative;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
     display: flex;
-    margin: 50px 100px 100px 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 1488px;
     height: 412px;
     background: rgba(193, 193, 195, 0.9);
 }
 
 .cont-img-ag {
-    padding: 28px;
+    margin-right: 24px;
     width: 698px;
-    height: 349px;
+    height: 348px;
 }
 
 .cont-text-ag {
-    position: absolute;
     padding: 128px 68px 132px 68px;
     top: 28px;
     right: 28px;
@@ -187,6 +186,7 @@ a {
     width: 518px;
     height: 481px;
     margin: 0 auto;
+    margin-bottom: 24px;
 }
 
 .cont-titl-feed {
@@ -232,11 +232,11 @@ a {
 }
 
 .cont-but-feed {
+    justify-content: flex-end;
     background: transparent;
     border: none;
-    padding: 20px 10px;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 48px;
     font-size: 32px;
     color: #fff;
     background: #444765;
